@@ -9,14 +9,12 @@
 
 #variable qui contient le parametre
 param1=${1}
-
 #verification de la presence de un parametre. Lorsque aucune parametre n'est present on sort.
 if [ "${#}" -eq 0 ]
 then
 	echo "Pas de parametres"
 	exit 1
 fi
-
 #Choix actions a appliquer selon le parametre
 case ${param1} in
     start)
