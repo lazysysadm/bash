@@ -9,7 +9,7 @@
 
 #variable qui contient le parametre
 param1=${1}
-#verification de la presence de un parametre. Lorsque aucune parametre n'est present on sort.
+#verification de la presence de un parametre. Lorsque aucun parametre n'est present on sort.
 if [ "${#}" -eq 0 ]
 then
 	echo "Pas de parametres"
