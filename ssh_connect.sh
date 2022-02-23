@@ -4,6 +4,12 @@
 name_server=""
 usr="user"
 
+if [ -z ${name_server} ]
+then
+        echo "No Name Server  sub ! Bye"
+        exit 1
+fi
+
 echo "Server Name To Access :"
 read name_server
 
