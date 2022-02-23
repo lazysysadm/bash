@@ -4,6 +4,8 @@
 name_server=""
 usr="user"
 
+printf " servers list : \n server01 \n server02 \n server03 \n"
+
 if [ -z ${name_server} ]
 then
         echo "No Name Server  sub ! Bye"
